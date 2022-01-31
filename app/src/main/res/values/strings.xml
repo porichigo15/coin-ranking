@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Assignment</string>
+    <string name="search_text">Search</string>
+    <string name="search_description">Search Description</string>
+    <string name="clear_description">Clear Description</string>
+    <string name="not_found_title">Sorry</string>
+    <string name="not_found_text">No result match this keyword</string>
+    <string name="top_text">Top</string>
+    <string name="_3_text">3</string>
+    <string name="rank_crypto_text">rank crypto</string>
+    <string name="buy_text">Buy, sell and hold crypto</string>
+    <string name="invite_text">You can earn $10  when you invite a friend to buy crypto.</string>
+    <string name="invite_link">Invite your friend</string>
+    <string name="invite_friend">Invite Friend</string>
+    <string name="default_text">-</string>
+    <string name="icon">icon</string>
+    <string name="go_to_website">GO TO WEBSITE</string>
+    <string name="price">PRICE</string>
+    <string name="market_cap">MARKET CAP</string>
+</resources>

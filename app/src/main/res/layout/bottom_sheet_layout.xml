@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_margin="@dimen/default_20dp"
+        android:background="@drawable/round_outline"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_select_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="@dimen/default_text_normal"
+            android:layout_margin="@dimen/default_10dp"
+            android:layout_alignParentBottom="true"
+            android:paddingBottom="@dimen/default_10dp"
+            android:paddingTop="@dimen/default_10dp"
+            android:text="Select Address" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

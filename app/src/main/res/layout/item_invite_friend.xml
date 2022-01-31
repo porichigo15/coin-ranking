@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@drawable/round_invite_friend"
+    android:layout_marginBottom="@dimen/default_12dp">
+
+    <RelativeLayout
+        android:id="@+id/icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/round_icon"
+        android:layout_margin="@dimen/default_20dp">
+
+        <ImageView
+            android:layout_width="@dimen/default_20dp"
+            android:layout_height="@dimen/default_20dp"
+            android:layout_margin="@dimen/default_10dp"
+            android:src="@drawable/ic_gift"
+            android:contentDescription="@string/invite_friend" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toEndOf="@id/icon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginEnd="@dimen/default_20dp"
+        android:layout_marginTop="@dimen/default_20dp"
+        android:layout_marginBottom="@dimen/default_20dp"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/invite_text"
+            android:textColor="@color/black"
+            android:textSize="@dimen/default_text_normal"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/invite_link"
+            android:textColor="@color/text_invite_friend"
+            android:textSize="@dimen/default_text_normal"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+</LinearLayout>
